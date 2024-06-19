@@ -1,0 +1,181 @@
+css
+body {
+  background-color: #f1f1f1;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.section-cv {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+
+.col-md-8 {
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%;
+}
+
+.cv-sidebar {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.cv-photo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cv-photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.cv-contact {
+  margin-bottom: 20px;
+}
+
+.cv-contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cv-contact ul li {
+  margin-bottom: 10px;
+}
+
+.cv-contact ul li i {
+  margin-right: 5px;
+}
+
+.cv-skills {
+  margin-bottom: 20px;
+}
+
+.cv-skills h4 {
+  margin-bottom: 10px;
+}
+
+.cv-skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cv-skills ul li {
+  margin-bottom: 5px;
+}
+
+.cv-content {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.cv-header {
+  margin-bottom: 20px;
+}
+
+.cv-header h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.cv-header h2 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.cv-summary {
+  margin-bottom: 20px;
+}
+
+.cv-summary p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cv-experience {
+  margin-bottom: 20px;
+}
+
+.cv-experience h4 {
+  margin-bottom: 10px;
+}
+
+.cv-experience ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cv-experience ul li {
+  margin-bottom: 10px;
+}
+
+.cv-job-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cv-company {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.cv-date {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.cv-description {
+  margin-bottom: 5px;
+}
+
+.cv-description ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cv-description ul li {
+  margin-bottom: 5px;
+}
+
+.cv-education {
+  margin-bottom: 20px;
+}
+
+.cv-education h4 {
+  margin-bottom: 10px;
+}
+
+.cv-education ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cv-education ul li {
+  margin-bottom: 10px;
+}
+
+.cv-degree {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cv-university {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
